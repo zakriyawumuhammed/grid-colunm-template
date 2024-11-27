@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 3%, 88%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.colum1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+}
+
+    
+
+/* fisrt row */
+.firstro{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 30PX;
+    font-size: 10px;
+    
+
+}
+
+.Dani{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 90%;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 20px;
+
+    
+
+    
+}
+
+.jona{
+    background-color:  hsl(217, 19%, 35%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 20px;
+
+
+    
+}
+
+
+/* second row */
+.secondro{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 30px;
+    font-size: 10px;
+    
+}
+.jea{ display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:hsl(0, 0%, 100%) ;
+    border-radius: 10px;
+    padding: 20px;
+
+
+}
+.Patric{ display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:hsl(217, 27%, 10%);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.ketr{ display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:hsl(0, 0%, 100%) ;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 13px;
+    
+    
+    
+
+    
+    
+
+}
+.img{
+    display: flex;
+    gap: 8px;
+}
+.imb{
+    border-radius: 25px;
+}
+h4{
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+}
+.p1{
+    color: hsl(217, 19%, 35%);
+    font-size: 13px;
+}
+.pa{
+    color:  hsl(209, 13%, 43%);
+    
+}
+h6{
+    color:  hsl(207, 19%, 27%);;
+}
+.pak{
+    color:  hsl(211, 17%, 32%);
+    
+    
+}
+
+@media screen  and (max-width:950px) {
+    .wrap{
+        flex-direction: column;
+    }
+    .firstro{
+        flex-direction: column;
+    }
+    .secondro{
+        flex-direction: column;
+    }
+   .ketr{
+        flex-direction: column;
+        width: 80vw;
+    
+    }
+    
+}
+
+    
